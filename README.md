@@ -2,6 +2,8 @@
 
 Solution solver of cryptarithmetic problems.
 
+This repository is used to fulfill Tugas Kecil 1 IF2211 2021/2021
+
 ### Start the program
 
 1. Open main.py
@@ -10,6 +12,8 @@ Solution solver of cryptarithmetic problems.
 ### Example
 
 1. File
+
    ![](https://image.prntscr.com/image/ttrP11J6Soaw3OmCAqYlvA.png)
 2. Program Output
+
    ![](https://image.prntscr.com/image/MvtWSnCjRjWbV38sk0bCsA.png)
