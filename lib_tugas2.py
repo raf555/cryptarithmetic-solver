@@ -14,6 +14,7 @@ def permutations(arr):
     '''
     Mencari permutasi pada array dengan Algoritma Heap's
     Referensi: https://en.wikipedia.org/wiki/Heap%27s_algorithm#Details_of_the_algorithm
+    output berupa set (agar tidak ada duplikat dari hasil permutasi)
     '''
     l = len(arr)
     out = set()

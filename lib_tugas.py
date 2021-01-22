@@ -107,14 +107,13 @@ def start(sort=True):
 
   # Assign data yang diterima dari fungsi parse
   # line = list of lines (fitlered)
-  # permutasi = list of permutations of list of letter
+  # permutasi = set of permutations of tuple of letter
   # ^^^^^^^^^-> filltoten: mengisi list of letter sehingga berjumlah 10, 
-  #             permutations : menghasilkan permutasi dari list, 
-  #             set: menghapus permutasi yang menghasilkan list duplikat
-  #             sorted: mengurutkan isi list
+  #             permutations : menghasilkan permutasi dari list tadi dan diubah bentuknya menjadi set of tuple, 
+  #             sorted: mengurutkan isi set
 
   line = filterliststring(check[2])
-  permutasi = set(permutations(filltoten(check[1])))
+  permutasi = permutations(filltoten(check[1]))
   if sort:
     permutasi = sorted(permutasi)
 
