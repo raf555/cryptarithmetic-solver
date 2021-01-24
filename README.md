@@ -4,6 +4,10 @@ Solution solver of cryptarithmetic problems.
 
 This repository is used to fulfill Tugas Kecil 1 IF2211 2021/2021
 
+- Rezda Abdullah F
+- 13519194
+- K4
+
 ### Start the program
 
 1. Open main.py
